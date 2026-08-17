@@ -18,8 +18,8 @@ const jost = Jost({
 })
 
 export const metadata: Metadata = {
-  title: 'DB Hair Salon | Luxury Hair Stylists in Tampa, FL',
-  description: 'A sanctuary of style and luxury in Tampa, Florida. Expert color, precision cuts, and personalized care. Book your appointment at DB Hair Salon.',
+  title: 'DB Hair Salon | Estilistas de Lujo en Tampa, FL',
+  description: 'Un santuario de estilo y lujo en Tampa, Florida. Color experto, cortes de precisión y atención personalizada. Reserva tu cita en DB Hair Salon.',
 }
 
 export default function RootLayout({

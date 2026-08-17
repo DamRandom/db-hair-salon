@@ -9,16 +9,16 @@ export const Hero = () => {
       <div className={styles.content}>
         <span className={styles.eyebrow}>Tampa, Florida</span>
         <h1 className="animate-fade-in">
-          Where Style<br />
-          Meets <em>Artistry.</em>
+          Donde el Estilo<br />
+          se une con el <em>Arte.</em>
         </h1>
         <p className="animate-fade-in">
-          A luxury hair sanctuary in the heart of Tampa. Expert stylists,
-          premium products, and an experience crafted entirely for you.
+          Un santuario de lujo para tu cabello en el corazón de Tampa. Estilistas expertos,
+          productos premium y una experiencia creada exclusivamente para ti.
         </p>
         <div className={styles.actions}>
-          <Button>Book Appointment</Button>
-          <Button variant="ghost">Our Services</Button>
+          <Button>Reservar Cita</Button>
+          <Button variant="ghost">Nuestros Servicios</Button>
         </div>
       </div>
     </section>

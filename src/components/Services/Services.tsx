@@ -2,12 +2,12 @@ import React from 'react';
 import styles from './Services.module.css';
 
 const services = [
-  { title: "Women's Haircut", price: 'from $65', desc: 'Precision cut tailored to your face shape and lifestyle.' },
-  { title: "Men's Haircut", price: 'from $40', desc: 'Modern styling and grooming for a sharp, polished look.' },
-  { title: 'Full Balayage', price: 'from $200', desc: 'Hand-painted highlights for a natural, sun-kissed effect.' },
-  { title: 'Color Retouch', price: 'from $85', desc: 'Root touch-up to keep your color fresh and vibrant.' },
-  { title: 'Keratin Treatment', price: 'from $250', desc: 'Smooth, frizz-free hair that lasts for months.' },
-  { title: 'Hair Extensions', price: 'Consultation', desc: 'Premium quality extensions for added length and volume.' },
+  { title: "Corte de Mujer", price: 'desde $65', desc: 'Corte de precisión adaptado a la forma de tu rostro y estilo de vida.' },
+  { title: "Corte de Hombre", price: 'desde $40', desc: 'Estilo moderno y arreglo para un aspecto elegante y definido.' },
+  { title: 'Balayage Completo', price: 'desde $200', desc: 'Reflejos pintados a mano para un efecto natural y besado por el sol.' },
+  { title: 'Retoque de Color', price: 'desde $85', desc: 'Retoque de raíces para mantener tu color fresco y vibrante.' },
+  { title: 'Tratamiento de Queratina', price: 'desde $250', desc: 'Cabello suave y sin frizz que dura meses.' },
+  { title: 'Extensiones de Cabello', price: 'Consulta', desc: 'Extensiones de calidad premium para mayor longitud y volumen.' },
 ];
 
 export const Services = () => {
@@ -16,14 +16,14 @@ export const Services = () => {
       <div className={styles.container}>
         <div className={styles.header}>
           <div className={styles.headerLeft}>
-            <span className={styles.eyebrow}>What we offer</span>
+            <span className={styles.eyebrow}>Lo que ofrecemos</span>
             <h2 className={styles.title}>
-              Premium<br /><em>Services</em>
+              Servicios<br /><em>Premium</em>
             </h2>
           </div>
           <p className={styles.subtitle}>
-            Every service is designed around you — your hair, your lifestyle, 
-            your vision.
+            Cada servicio está diseñado pensando en ti: tu cabello, tu estilo de vida, 
+            tu visión.
           </p>
         </div>
         <div className={styles.grid}>

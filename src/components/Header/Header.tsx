@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import styles from "./Header.module.css";
@@ -25,14 +26,14 @@ export const Header = () => {
         </div>
 
         <nav className={styles.nav}>
-          <Link href="#about">About</Link>
-          <Link href="#services">Services</Link>
-          <Link href="#gallery">Gallery</Link>
-          <Link href="#contact">Contact</Link>
+          <Link href="#about">Nosotros</Link>
+          <Link href="#services">Servicios</Link>
+          <Link href="#gallery">Galería</Link>
+          <Link href="#contact">Contacto</Link>
         </nav>
 
         <div className={styles.cta}>
-          <Button>Book Now</Button>
+          <Button onClick={() => window.open('https://wa.me/18135550199', '_blank')}>Reservar Ahora</Button>
         </div>
       </div>
     </header>

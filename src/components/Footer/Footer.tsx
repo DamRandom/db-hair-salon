@@ -22,21 +22,21 @@ export const Footer = () => {
             </div>
 
             <p>
-              Tampa&lsquos destination for premium hair care, modern color, and
-              personalized style.
+              El destino en Tampa para el cuidado premium del cabello, color moderno y
+              estilo personalizado.
             </p>
           </div>
 
           <div className={styles.links}>
-            <span className={styles.columnTitle}>Navigate</span>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#gallery">Gallery</a>
+            <span className={styles.columnTitle}>Navegar</span>
+            <a href="#home">Inicio</a>
+            <a href="#about">Nosotros</a>
+            <a href="#services">Servicios</a>
+            <a href="#gallery">Galería</a>
           </div>
 
           <div className={styles.social}>
-            <span className={styles.columnTitle}>Follow Us</span>
+            <span className={styles.columnTitle}>Síguenos</span>
             <a href="#">Instagram</a>
             <a href="#">Facebook</a>
             <a href="#">TikTok</a>
@@ -45,11 +45,11 @@ export const Footer = () => {
 
         <div className={styles.bottom}>
           <p>
-            &copy; {new Date().getFullYear()} DB Hair Salon. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} DB Hair Salon. Todos los derechos
+            reservados.
           </p>
           <span className={styles.bottomTagline}>
-            Where style meets artistry.
+            Donde el estilo se une con el arte.
           </span>
         </div>
       </div>

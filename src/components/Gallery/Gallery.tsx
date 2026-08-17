@@ -7,8 +7,8 @@ export const Gallery = () => {
     <section className={styles.gallery} id="gallery">
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
-          <span className={styles.eyebrow}>Portfolio</span>
-          <h2 className={styles.title}>Our <em>Work</em></h2>
+          <span className={styles.eyebrow}>Portafolio</span>
+          <h2 className={styles.title}>Nuestro <em>Trabajo</em></h2>
         </div>
         <div className={styles.grid}>
           <div className={styles.imageWrapper}>
