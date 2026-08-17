@@ -1,0 +1,51 @@
+.button {
+  padding: 11px 26px;
+  border-radius: 2px;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: all 0.3s var(--ease-out);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+/* Primary — charcoal solid */
+.primary {
+  background-color: var(--charcoal);
+  color: var(--white);
+}
+
+.primary:hover {
+  background-color: var(--charcoal-mid);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(34, 37, 41, 0.2);
+}
+
+/* Outline — blush border */
+.outline {
+  background: transparent;
+  border: 1px solid var(--charcoal);
+  color: var(--charcoal);
+}
+
+.outline:hover {
+  background: var(--blush);
+  border-color: var(--blush);
+  color: var(--charcoal);
+}
+
+/* Ghost — for light backgrounds */
+.ghost {
+  background: transparent;
+  border: 1px solid rgba(253, 251, 249, 0.6);
+  color: var(--white);
+}
+
+.ghost:hover {
+  background: rgba(253, 251, 249, 0.15);
+}
