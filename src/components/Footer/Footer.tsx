@@ -37,9 +37,27 @@ export const Footer = () => {
 
           <div className={styles.social}>
             <span className={styles.columnTitle}>Síguenos</span>
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">TikTok</a>
+            <a
+              href="https://www.instagram.com/barreradalianny/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://www.facebook.com/dalianny.barrera.7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook
+            </a>
+            <a
+              href="https://www.tiktok.com/@daliannybarrera"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              TikTok
+            </a>
           </div>
         </div>
 

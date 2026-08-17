@@ -104,3 +104,28 @@
   text-transform: uppercase;
   color: var(--charcoal-mid);
 }
+
+@media (max-width: 768px) {
+  .grid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 16px;
+    background: transparent;
+    margin: 0 calc(var(--container-pad) * -1);
+    padding: 0 var(--container-pad) 20px var(--container-pad);
+    scroll-padding: 0 var(--container-pad);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .grid::-webkit-scrollbar {
+    display: none;
+  }
+  .card {
+    flex: 0 0 85%;
+    scroll-snap-align: center;
+    border: 1px solid var(--beige-dark);
+  }
+}

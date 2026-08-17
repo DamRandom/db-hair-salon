@@ -2,12 +2,36 @@ import React from 'react';
 import styles from './Services.module.css';
 
 const services = [
-  { title: "Corte de Mujer", price: 'desde $65', desc: 'Corte de precisión adaptado a la forma de tu rostro y estilo de vida.' },
-  { title: "Corte de Hombre", price: 'desde $40', desc: 'Estilo moderno y arreglo para un aspecto elegante y definido.' },
-  { title: 'Balayage Completo', price: 'desde $200', desc: 'Reflejos pintados a mano para un efecto natural y besado por el sol.' },
-  { title: 'Retoque de Color', price: 'desde $85', desc: 'Retoque de raíces para mantener tu color fresco y vibrante.' },
-  { title: 'Tratamiento de Queratina', price: 'desde $250', desc: 'Cabello suave y sin frizz que dura meses.' },
-  { title: 'Extensiones de Cabello', price: 'Consulta', desc: 'Extensiones de calidad premium para mayor longitud y volumen.' },
+  {
+    title: 'Cortes de Cabello',
+    price: 'Consulta',
+    desc: 'Cortes personalizados que se adaptan a tu estilo, tipo de cabello y preferencias.'
+  },
+  {
+    title: 'Balayage',
+    price: 'Consulta',
+    desc: 'Técnica de iluminación personalizada para lograr un resultado natural, luminoso y sofisticado.'
+  },
+  {
+    title: 'Highlights',
+    price: 'Consulta',
+    desc: 'Mechas cuidadosamente diseñadas para aportar dimensión, luminosidad y profundidad al cabello.'
+  },
+  {
+    title: 'Coloración',
+    price: 'Consulta',
+    desc: 'Color personalizado con técnicas profesionales para realzar tu estilo y mantener un acabado uniforme.'
+  },
+  {
+    title: 'Alisado Capilar',
+    price: 'Consulta',
+    desc: 'Tratamientos profesionales para lograr un cabello más suave, manejable y con un acabado liso.'
+  },
+  {
+    title: 'Tratamientos Capilares',
+    price: 'Consulta',
+    desc: 'Tratamientos de hidratación, botox y reparación para mejorar la apariencia, suavidad y vitalidad del cabello.'
+  },
 ];
 
 export const Services = () => {
@@ -21,11 +45,13 @@ export const Services = () => {
               Servicios<br /><em>Premium</em>
             </h2>
           </div>
+
           <p className={styles.subtitle}>
             Cada servicio está diseñado pensando en ti: tu cabello, tu estilo de vida, 
             tu visión.
           </p>
         </div>
+
         <div className={styles.grid}>
           {services.map((service, index) => (
             <div key={index} className={styles.card}>
@@ -33,6 +59,7 @@ export const Services = () => {
                 <h3 className={styles.cardTitle}>{service.title}</h3>
                 <span className={styles.price}>{service.price}</span>
               </div>
+
               <p className={styles.cardDesc}>{service.desc}</p>
             </div>
           ))}

@@ -33,7 +33,13 @@ export const Header = () => {
         </nav>
 
         <div className={styles.cta}>
-          <Button onClick={() => window.open('https://wa.me/18135550199', '_blank')}>Reservar Ahora</Button>
+          <Button
+            onClick={() =>
+              window.open("https://wa.me/19412502208", "_blank")
+            }
+          >
+            Reservar Ahora
+          </Button>
         </div>
       </div>
     </header>

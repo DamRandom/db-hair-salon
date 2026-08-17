@@ -42,10 +42,10 @@ export const Contact = () => {
     e.preventDefault();
     if (validate()) {
       const text = `Hola, mi nombre es ${name}. Mi email es ${email}. Mensaje: ${message}`;
-      window.open(`https://wa.me/18135550199?text=${encodeURIComponent(text)}`, '_blank');
+      window.open(`https://wa.me/19412502208?text=${encodeURIComponent(text)}`, '_blank');
     }
   };
-
+  
   return (
     <section className={styles.contact} id="contact">
       <div className={styles.container}>
@@ -59,24 +59,27 @@ export const Contact = () => {
             Estamos ubicados en el centro de Tampa. Ven sin cita o reserva en línea 
             — nos encantaría verte.
           </p>
+
           <div className={styles.details}>
             <div className={styles.detailItem}>
-              <span className={styles.detailLabel}>Dirección</span>
-              <p>123 Luxury Ave, Tampa, FL 33602</p>
-            </div>
-            <div className={styles.detailItem}>
               <span className={styles.detailLabel}>Teléfono</span>
-              <p>(813) 555-0199</p>
+              <p>+1 941-250-2208</p>
             </div>
+
             <div className={styles.detailItem}>
               <span className={styles.detailLabel}>Horario</span>
-              <p>Lun – Vie: 9am – 8pm<br />Sáb: 10am – 6pm<br />Dom: Cerrado</p>
+              <p>
+                Lun – Vie: 9am – 8pm<br />
+                Sáb: 10am – 6pm<br />
+                Dom: Cerrado
+              </p>
             </div>
           </div>
         </div>
 
         <form className={styles.form} onSubmit={handleSubmit}>
           <h3 className={styles.formTitle}>Enviar un Mensaje</h3>
+
           <div className={styles.inputGroup}>
             <label htmlFor="contact-name">Nombre Completo</label>
             <input 
@@ -92,6 +95,7 @@ export const Contact = () => {
             />
             {errors.name && <span className={styles.errorMessage}>{errors.name}</span>}
           </div>
+
           <div className={styles.inputGroup}>
             <label htmlFor="contact-email">Correo Electrónico</label>
             <input 
@@ -107,6 +111,7 @@ export const Contact = () => {
             />
             {errors.email && <span className={styles.errorMessage}>{errors.email}</span>}
           </div>
+
           <div className={styles.inputGroup}>
             <label htmlFor="contact-message">Mensaje</label>
             <textarea 
@@ -122,7 +127,10 @@ export const Contact = () => {
             ></textarea>
             {errors.message && <span className={styles.errorMessage}>{errors.message}</span>}
           </div>
-          <Button type="submit" style={{ width: '100%' }}>Enviar Mensaje</Button>
+
+          <Button type="submit" style={{ width: '100%' }}>
+            Enviar Mensaje
+          </Button>
         </form>
       </div>
     </section>
